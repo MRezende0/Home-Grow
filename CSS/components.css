@@ -1,0 +1,30 @@
+.btn {
+    display: flex;
+    line-height: 40px;
+    padding: 0px 24px;
+    box-sizing: border-box;
+    width: 392px;
+    height: 50px;
+    left: 0px;
+    top: 154px;
+    border: 1px solid #353D2C;
+    border-radius: 20px;
+    color: #353D2C;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    line-height: 18px;
+    letter-spacing: -1px;
+    background-color: #7CB245;
+}
+
+.btn-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 18px;
+    letter-spacing: -1px;
+    color: #353D2C;
+}

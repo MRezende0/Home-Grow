@@ -1,0 +1,228 @@
+/* COMEÇO LOADING */
+div#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7cb245;
+    z-index: 99999;
+}
+  
+div#preloader img {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 49.5vh;
+    right: 58.2vh;
+    transform: translate(-50vh, -50vh);
+    max-width: 100vh;
+    width: 80px;
+    height: 650px;
+    max-height: 100vh;
+}
+
+div#preloader svg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 38vh;
+    right: 102.5vh;
+    width: 150px;
+    height: 150px;
+    animation: rotate 2s linear infinite;
+}
+
+div#preloader svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 5;
+    stroke: #ffffff;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    animation: animate 4s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate {
+    0%, 100% {
+        stroke-dashoffset: 440;
+    }
+    50% {
+        stroke-dashoffset: 0;
+    }
+    50.1% {
+        stroke-dashoffset: 880;
+    }
+}
+/* FIM LOADING */
+
+
+/* COMEÇO LOGIN */
+.s-login {
+    display: flex;
+    justify-content: space-around;
+    padding: 1px 8px 50px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.s-login .dados {
+    width: 393px;
+    height: 699px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #353D2C;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+.s-login .retangulo {
+    display: block;
+}
+
+.s-login .retangulo img {
+    max-width: 100vh;
+    width: 480px;
+    height: 650px;
+    max-height: 100vh;
+    border-radius: 48px;
+}
+
+.s-login .dados .title h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    width: 221px;
+    height: 80px;
+}
+
+.s-login .dados .box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s-login .dados .box .insert {
+    width: 392px;
+    height: 50px;
+    left: 108px;
+    top: 323px;
+    border: 1px solid #353D2C;
+    border-radius: 20px;
+    padding: 0px 16px ;
+}
+
+.s-login .dados .box .text {
+    width: 50px;
+    height: 18px;
+    line-height: 18px;
+    letter-spacing: -1px;
+}
+
+.s-login .dados .forms {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.s-login .dados .add {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px;
+}
+
+.s-login .dados .submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.s-login .dados .submit .lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-login .dados .submit .lines .line1 {
+    width: 175px;
+    height: 0px;
+    left: 0px;
+    top: 111px;
+    border: 1px solid #353D2C;
+}
+
+.s-login .dados .submit .lines .ou {
+    width: 39px;
+    height: 17px;
+    left: calc(50% - 39px/2 - 1.5px);
+    top: 102px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17px;
+
+    text-align: center;
+    letter-spacing: -1px;
+    color: #353D2C;
+}
+
+.s-login .dados .submit .lines .line2 {
+    width: 175px;
+    height: 0px;
+    left: 228px;
+    top: 111px;
+    border: 1px solid #353D2C;
+}
+
+.s-login .dados .submit .btn {
+    gap: 6px;
+}
+
+.s-login .dados .submit .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.s-login .dados .submit .box p {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -1px;
+    color: #353D2C;
+}
+
+.s-login .dados .submit .box a {
+    gap: 2px;
+}
+/* FIM LOGIN */

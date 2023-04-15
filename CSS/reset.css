@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+}  
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
