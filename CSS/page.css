@@ -131,7 +131,8 @@ div#preloader svg circle {
     top: 323px;
     border: 1px solid #353D2C;
     border-radius: 20px;
-    padding: 0px 16px ;
+    padding: 0px 16px;
+    padding-right: 60px;
 }
 
 .s-login .dados .box .text {
@@ -139,6 +140,16 @@ div#preloader svg circle {
     height: 18px;
     line-height: 18px;
     letter-spacing: -1px;
+}
+
+.s-login .dados .box .eye {
+    cursor: pointer;
+    position: absolute;
+    top: 44.4%;
+    left: 510px;
+    transform: translateY(-50%);
+    width: 23px;
+    height: 23px;
 }
 
 .s-login .dados .forms {
