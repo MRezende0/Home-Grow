@@ -31,11 +31,11 @@ $(window).load(function() { // makes sure the whole site is loaded
 function typeChanger() {
     if (password.type === "password") {
         password.type = "text"
-        document.getElementsById("eye").img = "D:/Users/mathe/OneDrive/Documentos/Projetos-Git/Home-Grow/Images/eye-hide.svg";
+        document.getElementsById("eye").img = "./Images/eye-hide.svg";
     }
     else {
         password.type = "password"
-        document.getElementsById("eye").img = "D:/Users/mathe/OneDrive/Documentos/Projetos-Git/Home-Grow/Images/eye-view.svg";
+        document.getElementsById("eye").img = "./Images/eye-view.svg";
     }
 }
 
